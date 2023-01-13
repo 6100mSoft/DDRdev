@@ -9,7 +9,7 @@ type %~dp0\STRING.BIN
 set NLC=^
 set NL=^^^%NLC%%NLC%^%NLC%%NLC%
 type %~dp0\ROM.BIN
-echo %NF%* Check RTC.
+echo %NL%* Check RTC.
 call %~dp0\STRIP.exe
 call %~dp0\TIME.exe
 call %~dp0\STRING.exe
