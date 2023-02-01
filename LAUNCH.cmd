@@ -4,7 +4,7 @@ chcp 65001>nul
 setlocal enabledelayedexpansion
 call %~dp0\TASKS.cmd
 type %~dp0\MSG.BIN
-cd D:\MDX
+cd C:\MDX
 cd contents
 type %~dp0\TEXT.BIN
 cd contents
