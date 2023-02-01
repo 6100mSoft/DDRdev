@@ -7,7 +7,6 @@ type %~dp0\MSG.BIN
 cd C:\MDX
 cd contents
 type %~dp0\TEXT.BIN
-cd contents
 type %~dp0\COUNTDOWN.BIN
 timeout 1 >nul
 set count1=0
